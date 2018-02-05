@@ -5,7 +5,7 @@
     $ buildbot --help 
     $ buildbot-worker --help 
     
-    $tail -f /home/buildbot/master/twistd.log 
+    $ tail -f /home/buildbot/master/twistd.log 
    
     /home/buildbot/{worker,master} 
     /home/buildbot/worker/builds 
