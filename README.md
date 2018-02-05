@@ -4,6 +4,10 @@
     $ . venv/bin/activate 
     $ buildbot --help 
     $ buildbot-worker --help 
-    /home/buildbot/{worker,master} 
-    tail -f /home/buildbot/master/twistd.log 
+    
+    $tail -f /home/buildbot/master/twistd.log 
    
+    /home/buildbot/{worker,master} 
+    /home/buildbot/worker/builds 
+    
+    
