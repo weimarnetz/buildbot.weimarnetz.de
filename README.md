@@ -10,4 +10,5 @@
     /home/buildbot/{worker,master} 
     /home/buildbot/worker/builds 
     
+ docs: http://docs.buildbot.net/current/
     
