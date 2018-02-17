@@ -21,3 +21,6 @@
     $ pip install wheel
     $ pip install 'buildbot[bundle]'
 
+# Worker 
+
+    $ buildbot-worker create-worker --umask=0o22 worker buildbot.weimarnetz.de <host> <pw>
