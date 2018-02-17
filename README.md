@@ -18,5 +18,6 @@
     # sudo -u buildbot -i 
     $ python3 -m venv venv 
     $ echo '. ~/venv/bin/activate' >> ~/.profile
+    $ pip install wheel
     $ pip install 'buildbot[bundle]'
 
