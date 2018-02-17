@@ -11,4 +11,12 @@
     /home/buildbot/worker/builds 
     
  docs: http://docs.buildbot.net/current/
-    
+   
+# Install 
+
+    # apt install build-essential python3-dev python3-virtualenv
+    # sudo -u buildbot -i 
+    $ python3 -m venv venv 
+    $ echo '. ~/venv/bin/activate' >> ~/.profile
+    $ pip install 'buildbot[bundle]'
+
