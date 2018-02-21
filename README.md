@@ -11,4 +11,16 @@
     /home/buildbot/worker/builds 
     
  docs: http://docs.buildbot.net/current/
-    
+   
+# Install 
+
+    # apt install build-essential python3-dev python3-virtualenv
+    # sudo -u buildbot -i 
+    $ python3 -m venv venv 
+    $ echo '. ~/venv/bin/activate' >> ~/.profile
+    $ pip install wheel
+    $ pip install 'buildbot[bundle]'
+
+# Worker 
+
+    $ buildbot-worker create-worker --umask=0o22 worker buildbot.weimarnetz.de <host> <pw>
