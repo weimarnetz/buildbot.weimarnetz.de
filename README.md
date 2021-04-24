@@ -1,3 +1,5 @@
+We now use github actions, this project is archived
+
 # buildbot.weimarnetz.de
 
     # sudo -u buildbot -i 
